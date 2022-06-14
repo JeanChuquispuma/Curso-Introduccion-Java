@@ -17,7 +17,7 @@ public class MathematicOperations {
 
         //Devuelve la raíz cuadrada
         System.out.println(Math.sqrt(y));
-        
+
         //Area de un círculo
         //pi * r2
         System.out.println(Math.PI * Math.pow(y,2));
