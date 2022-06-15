@@ -20,6 +20,12 @@ public class Funciones {
         return (4/3 * Math.PI * Math.pow(r,3));
     }
 
+    /**
+     * Descripción: Función que especificando su moneda convierte una cantidad de dinero a dólares
+     * @param quantity Cantidad de dinero
+     * @param currency Tipo de Moneda: Solo acepta USD o PEN
+     * @return quantity Devuevle la cantidad actualizada en Dolares
+     * */
     public static double converToDolar(double quantity, String currency){
         //SOLES DOLARES
         switch (currency){
@@ -27,7 +33,7 @@ public class Funciones {
                 quantity = quantity / 4;
                 break;
             case "USD":
-                quantity = quantity * 4;
+                quantity = quantity * 1;
                 break;
         }
 
